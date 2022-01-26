@@ -1,10 +1,2 @@
-Script started on 2022-01-26 05:52:07-08:00 [TERM="xterm" TTY="/dev/pts/14" COLUMNS="120" LINES="43"]
-# /0x00-shell_basics
-sh: 1: /0x00-shell_basics: not found
-# script /0x00-shell_basics
-Script started, file is /0x00-shell_basics
-# 
-Script done, file is /0x00-shell_basics
-# 
-
-Script done on 2022-01-26 05:52:35-08:00 [COMMAND_EXIT_CODE="0"]
+#!/bin/bash
+pwd
