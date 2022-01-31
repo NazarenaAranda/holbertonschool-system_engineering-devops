@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -10t | head
+ls -lt | head
