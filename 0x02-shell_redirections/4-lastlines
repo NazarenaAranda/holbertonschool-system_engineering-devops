@@ -1,3 +1,2 @@
 #!/bin/bash
 tail -f 4-lastlines
-
