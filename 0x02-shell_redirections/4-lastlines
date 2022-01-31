@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n10 /4-lastlines
+head -n10 /etc/passwd
