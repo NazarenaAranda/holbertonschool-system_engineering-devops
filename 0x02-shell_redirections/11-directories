@@ -1,2 +1,2 @@
 #!/ban/bash
-$ ls -l .vim | grep -c ^d
+find . ! -name . -prune ! -type d | grep -c /
