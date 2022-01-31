@@ -1,2 +1,2 @@
 #!/ban/bash
-find . ! -name . -prune ! -type d | grep -c /
+find . -mindepth 1 -type d | wc -1
