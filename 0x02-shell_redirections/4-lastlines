@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n10 4-lastlines
+head -n10 /4-lastlines
