@@ -84,3 +84,13 @@ Para generar claves en la terminal simplemente hay que seguir estos pasos:
 3- Escribir una frase (opcional).
 
 Esta es la manera que recomiendo porque ya te trae incorporado en la clave publica el ssh-rsa y al final te pone el user.
+
+---------------------------------------------------------------------
+
+| Archivo | Datos |
+----------------
+| 1-for_best_school | Tenemos a la letra "a" como nuestra iteradora, usamos el for como bucle para decirle la condicion de que se repita hasta cierta cantidad.
+
+do: es la palabra clave que inicia los bucles. Ejecutará la instrucción n veces, siendo n el número total de elementos.
+
+done: detiene el bucle |
