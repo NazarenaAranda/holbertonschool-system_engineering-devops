@@ -40,8 +40,25 @@ To generate keys in the terminal simply follow these steps:
 
 This is the way that I recommend because it already brings you incorporated in the public key the ssh-rsa and at the end it puts you the user.
 
+-------------------------------------------------------------------------------------------------------------
+
+Using loops in bash
+--------------------
+
+do: is the keyword that starts the loops. It will execute the instruction n times, where n is the total number of elements.
+
+done: stops the loop
+
+for :
+-----
+We have the letter "a" as our iterator, we use the for as a loop to tell it first when we want our variable to start iterating, then the condition and finally to go forward. This is the same as with C, but the difference is that it goes with double parenthesis and without semicolon at the end.
+
+while :
+-------
+We have the letter "a" as our iterator, first we declare it giving its starting point. Then, as with for we give it the condition using double parenthesis, and finally inside "do" and after telling it what we want it to do if the condition is fulfilled, we tell it to go ahead. An interesting fact about this loop is that when declaring the variable and giving it a value, you don't have to leave spaces around "=". We discovered this thanks to shellcheck.
 
 --------------------------------------------------------------
+---------------------------------------------------------------
 
 SHELLCHECK
 -----------
@@ -87,10 +104,17 @@ Esta es la manera que recomiendo porque ya te trae incorporado en la clave publi
 
 ---------------------------------------------------------------------
 
-| Archivo | Datos |
-----------------
-| 1-for_best_school | Tenemos a la letra "a" como nuestra iteradora, usamos el for como bucle para decirle la condicion de que se repita hasta cierta cantidad.
+Usar bucles en bash
+--------------------
 
-| do: es la palabra clave que inicia los bucles. Ejecutará la instrucción n veces, siendo n el número total de elementos. |
+do: es la palabra clave que inicia los bucles. Ejecutará la instrucción n veces, siendo n el número total de elementos.
 
-| done: detiene el bucle |
+done: detiene el bucle
+
+for :
+-----
+Tenemos a la letra "a" como nuestra iteradora, usamos el for como bucle para decirle primero desde cuando queremos que nuestra variable empiece a iterar, luego la condicion y finalmente que vaya avanzando. Esto es igual que con C, pero la diferencia es que va con doble parentesis y sin punto y coma al final.
+
+while :
+-------
+Tenemos a la letra "a" como nuestra iteradora, primero la declaramos dandole su punto de inicio. Luego, al igual que con for le damos la condicion usando parentesis dobles, y finalmente dentro de "do" y luego de decirle lo que queremos que haga si se cumple la condicion, le decimos que vaya avanzando. Un dato interesante de este ciclo es que al declarar la variable y darle un valor, no hay que dejar espacios alrededor de "=". Esto lo descubrimos gracias a shellcheck.
