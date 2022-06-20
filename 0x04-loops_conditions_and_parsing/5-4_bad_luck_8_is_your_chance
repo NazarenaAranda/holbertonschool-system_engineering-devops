@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#imprimir con while
+a=0
+
+while [ $a -le 9 ]
+do
+	if [ $a == 4 ]
+	then
+		echo "bad luck"
+	elif [ $a == 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((a++))
+done
