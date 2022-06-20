@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#imprimir con while
+a=0
+b=9
+
+until ((b < a))
+do
+	echo "Best School"
+	((a++))
+done
