@@ -72,6 +72,10 @@ if in Bash
 ----------
 In bash the if is put the same as in C, but what changes is that it is in straight parenthesis, then we put "Then" inside this is where we tell it what we want to do if the condition inside the if is fulfilled, and finally we put "fi" to finish the if.
 
+Cases in Bash
+--------------
+The cases in bash are put first writing the variable that is going to do the iterations, like this: "case $a in" and then there you write the different cases, like in the iteration "4)" and there we write what we want to do in that case, we separate each case with a double semicolon, and we close the cases using "esac".
+
 
 --------------------------------------------------------------
 ---------------------------------------------------------------
@@ -150,3 +154,7 @@ Utilizamos la letra "a" como el comienzo, y la letra "b" como final, por eso ant
 if en Bash
 ----------
 En bash el if se pone igual que en C, pero lo que cambia es que es en parentesis rectos, luego se pone "Then" dentro de esto es donde le decimos que queremos que hacer si se cumple la condicion dentro del if, y finalmente ponemos "fi" para terminar el if.
+
+Cases en Bash
+--------------
+Los casos en bash se ponen primero escribiendo la variable que va a hacer las iteraciones, asi : "case $a in" y luego ahi vas escribiendo los diferentes casos, de la manera en que en la iteracion "4)" y ahi escribimos lo que queremos que haga en ese caso, separamos cada caso con doble punto y coma, y cerramos los casos usando "esac".
