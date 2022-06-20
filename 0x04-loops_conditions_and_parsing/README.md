@@ -53,6 +53,8 @@ done:
 -----
 stops the loop
 
+The double parenthesis of the loops can be straight parenthesis, I recommend this when using "if", because when we are going to use these, the condition of the cycle will be different, instead of putting "<" in this case it will be "-le".
+
 for :
 -----
 We have the letter "a" as our iterator, we use the for as a loop to tell it first when we want our variable to start iterating, then the condition and finally to go forward. This is the same as with C, but the difference is that it goes with double parenthesis and without semicolon at the end.
@@ -64,6 +66,12 @@ We have the letter "a" as our iterator, first we declare it giving its starting 
 until :
 -------
 We use the letter "a" as the beginning, and the letter "b" as the end, that's why before using the loop we give those values. The until loop, is written exactly the same as the while loop, the difference is that the condition is put with the two variables created, and whatever is put inside "do", is going to be done until the condition previously put is fulfilled.
+
+---------------------------------------------------------------
+if in Bash
+----------
+In bash the if is put the same as in C, but what changes is that it is in straight parenthesis, then we put "Then" inside this is where we tell it what we want to do if the condition inside the if is fulfilled, and finally we put "fi" to finish the if.
+
 
 --------------------------------------------------------------
 ---------------------------------------------------------------
@@ -123,6 +131,8 @@ done:
 -----
 detiene el bucle
 
+Los dobles parentesis de los loops pueden ser parentesis rectos, esto lo recomiendo a la hora de usar "if", ya que cuando vayamos a usar estos, la condicion del ciclo va a ser otra, en vez de poner "<" en este caso va a ser "-le".
+
 for :
 -----
 Tenemos a la letra "a" como nuestra iteradora, usamos el for como bucle para decirle primero desde cuando queremos que nuestra variable empiece a iterar, luego la condicion y finalmente que vaya avanzando. Esto es igual que con C, pero la diferencia es que va con doble parentesis y sin punto y coma al final.
@@ -134,3 +144,9 @@ Tenemos a la letra "a" como nuestra iteradora, primero la declaramos dandole su 
 until :
 -------
 Utilizamos la letra "a" como el comienzo, y la letra "b" como final, por eso antes de usar el bucle le damos esos valores. El ciclo until, se escribe exactamente igual al ciclo while, la diferencia es que la condicion se pone con las dos variables creadas, y lo que se ponga dentro de "do", se va a realizar hasta que la condición puesta anteriormente se cumpla.
+
+-------------------------------------------------
+
+if en Bash
+----------
+En bash el if se pone igual que en C, pero lo que cambia es que es en parentesis rectos, luego se pone "Then" dentro de esto es donde le decimos que queremos que hacer si se cumple la condicion dentro del if, y finalmente ponemos "fi" para terminar el if.
