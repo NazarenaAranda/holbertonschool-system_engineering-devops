@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#imprimir con while 12 horas y 59 minutos
+minutos=1
+horas=0
+
+while [ $horas -le 12 ]
+do
+	echo "Hour: $horas"
+	((minutos=1))
+	while [ $minutos -le 59 ]
+	do
+		echo "$minutos"
+		((minutos++))
+	done
+	((horas++))
+done
