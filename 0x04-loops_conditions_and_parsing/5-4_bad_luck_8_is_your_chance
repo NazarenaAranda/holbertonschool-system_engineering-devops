@@ -2,7 +2,7 @@
 #imprimir con while
 a=0
 
-while [ $a -le 9 ]
+while (( a <= 9 ))
 do
 	if [ $a == 4 ]
 	then
