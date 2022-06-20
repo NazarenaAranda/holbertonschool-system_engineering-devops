@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#imprimir con while
+a=0
+
+while ((a < 8))
+do
+	echo "Best School"
+	if [ $a == 7 ]
+	then
+		echo "Hi"
+		echo "Best School"
+	fi
+	((a++))
+done
