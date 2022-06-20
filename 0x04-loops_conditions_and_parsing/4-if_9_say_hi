@@ -2,13 +2,12 @@
 #imprimir con while
 a=0
 
-while ((a < 8))
+while [ $a -le 9 ]
 do
 	echo "Best School"
-	if [ $a == 7 ]
+	if [ $a == 8 ]
 	then
 		echo "Hi"
-		echo "Best School"
 	fi
 	((a++))
 done
