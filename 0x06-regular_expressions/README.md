@@ -39,20 +39,12 @@ Punto + espacio (. ) Encuentra todos los caracteres que tengan un espacio subsec
 
 -------------------------------------------------------------------------------------------------------------------------
 | Regex |	Qué hace  |	Descripción  |	Inverso |
-| -------------------------------------------
+| -------|----------|---------------|----------|
 | .  |	Character  | Cualquier caracter, selecciona cada uno de los caracteres	|     |
-| --------------------------------------------------------------------------------
 | /d | Digit | Digits: (d minúscula) Encuentra todos los dígitos (número) de 0 a 9, es equivalente a poner [0-9].  |	\D |
-| --------------------------------------------------------------------------------------------------------------------------
-| /w  |	Word |	All word characters, Encuentra todos los caracteres que son parte de una palabra, tanto letras (minúsculas o mayúsculas) como números, es equivalente a poner [a-zA-Z0-9_].  |	\W  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------
+| /w  |	Word |	All word characters, Encuentra todos los caracteres que son parte de una palabra, tanto letras (minúsculas o mayúsculas) como números, es          equivalente a poner [a-zA-Z0-9_].  |	\W  |
 | /s |Space | WhiteSpaces, Encuentra todos los espacios (los saltos de línea y tabuladores también son espacios.  | \S  |
-| ----------------------------------------------------------------------------------------------------------------------------
 | [0-9]	| Specific Digit | Encuentra todos los dígitos de 0 a 9. |  	|
-| -----------------------------------------------------------------------------
 | [0-9a-zA-Z]	| Specific Word Character  | Encontrará todos los caracteres que estén del 0-9 o que sean letras mayúsculas o minúsculas | (\w)	|
-|  -------------------------------------------------------------------------------------------------------------------------------------------------------
 |[a-zA-Z]	|	| nos encontrará solamente las letras, tanto mayúsculas como minúsculas.|	|
-|---------------------------------------------------------------------------------------------------------------
 | \  |	Diagonal invertida	| Escapa los caracteres, permite que un carácter especial se muestre|   |
-|-------------------------------------------------------------------------------------------------------------
