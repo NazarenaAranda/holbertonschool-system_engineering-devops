@@ -6,4 +6,4 @@
 
 ## Task 0: 0-simple_web_stack
 
-#imagen
+![0-simple_web_stack](https://user-images.githubusercontent.com/98347450/179424978-1b9fab55-3905-4acb-a297-749c5de637cd.png)
