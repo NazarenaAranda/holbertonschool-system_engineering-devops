@@ -18,4 +18,4 @@
 
 ## Task 3: 3. Scale up
 
-![3-infra](https://user-images.githubusercontent.com/98347450/179447282-56aa38b8-16ec-4369-984b-b0288bea0ee8.png)
+![3-infraes](https://user-images.githubusercontent.com/98347450/179447979-c2e065c2-75ea-49da-9ef5-181a03d62888.png)
