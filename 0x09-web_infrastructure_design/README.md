@@ -14,4 +14,4 @@
 
 ## Task 2: 2. Secured and monitored web infrastructure
 
-
+![2 infraestrc](https://user-images.githubusercontent.com/98347450/179444026-591b1dda-deea-44f0-8744-f4b627887749.png)
