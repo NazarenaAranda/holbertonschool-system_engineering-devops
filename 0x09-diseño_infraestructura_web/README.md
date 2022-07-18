@@ -15,3 +15,7 @@
 ## Task 2: 2. Secured and monitored web infrastructure
 
 ![2 infraestrc](https://user-images.githubusercontent.com/98347450/179444026-591b1dda-deea-44f0-8744-f4b627887749.png)
+
+## Task 3: 3. Scale up
+
+![3-infra](https://user-images.githubusercontent.com/98347450/179447282-56aa38b8-16ec-4369-984b-b0288bea0ee8.png)
