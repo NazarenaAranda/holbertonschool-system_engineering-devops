@@ -11,3 +11,7 @@
 ## Task 1: 1. Distributed web infrastructure
 
 ![1-distributed_web_infrastructure](https://user-images.githubusercontent.com/98347450/179435416-26a15b95-13f7-4a22-8e2b-625e70773685.png)
+
+## Task 2: 2. Secured and monitored web infrastructure
+
+
