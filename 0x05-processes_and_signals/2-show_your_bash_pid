@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Sript Bash que muestre las líneas que contienen la palabra bash
+ps auxf | grep bash
+
